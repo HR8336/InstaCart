@@ -17,7 +17,7 @@ const Reciepes = () => {
     axios
       .request(options)
       .then(function (response) {
-        console.log(response.data.results, "gaeuryfau");
+        console.log(response.data.results, "dataOfApi");
         setStoreData(response.data.results);
       })
       .catch(function (error) {
