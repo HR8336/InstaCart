@@ -1,0 +1,14 @@
+.boxwrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 400px;
+    min-height: 400px;
+    box-sizing: border-box;
+    background: #fffff7;
+    box-shadow: 4px 2px 16px rgba(0, 0, 0, 0.4);
+    border-radius: 8px;
+    margin: 100px auto 0 auto;
+    padding: 25px;
+    color: #414141;
+}
